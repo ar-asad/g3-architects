@@ -199,3 +199,32 @@
     font-size: 25px;
     line-height: 40px;
 }
+
+/* section Facts style here */
+/* ........................ */
+.facts {
+    width: 1200px;
+    margin: 80px auto;
+}
+
+.facts-texbox {
+    margin-bottom: 90px;
+}
+
+.facts-rewards {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.rewards-details {
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 30px 50px 20px;
+}
+
+.title-secondary_number {
+    color: #424242;
+    margin-bottom: 5px;
+}
