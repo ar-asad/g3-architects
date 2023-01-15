@@ -347,7 +347,6 @@
     /* .................................. */
     .feature-explore {
         max-width: 90vw;
-        /* margin: 130px auto; */
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -366,6 +365,25 @@
     .btn-secondary {
         left: 2px;
         bottom: -100px;
+    }
+
+
+    /* section Facts style here */
+    /* ........................ */
+    .facts {
+        max-width: 90vw;
+        margin-top: 190px;
+    }
+
+    .facts-texbox {
+        margin-bottom: 50px;
+    }
+
+    .facts-rewards {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
     }
 
 }
