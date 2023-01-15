@@ -266,3 +266,58 @@
     font-size: 20px;
     color: #424242;
 }
+
+
+/* Responsive style here */
+/* ..................... */
+@media only screen and (max-width:576px) {
+    .navbar {
+        max-width: 100vw;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+    .navbar-title {
+        font-weight: 700;
+        font-size: 25px;
+        color: #131313;
+    }
+
+    .list {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        list-style: none;
+        gap: 25px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    /* banner styel here */
+    /* ................. */
+
+    .banner-textbox {
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .banner-title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 30px;
+        color: #131313;
+    }
+
+    .banner-imgbox {
+        width: 90vw;
+        margin: 0 auto
+    }
+}
