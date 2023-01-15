@@ -343,4 +343,29 @@
     }
 
 
+    /* section Feature explore style here */
+    /* .................................. */
+    .feature-explore {
+        max-width: 90vw;
+        /* margin: 130px auto; */
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    .feature-details {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .explore-imgbox {
+        width: 90vw;
+    }
+
+    .btn-secondary {
+        left: 2px;
+        bottom: -100px;
+    }
+
 }
