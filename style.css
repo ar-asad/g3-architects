@@ -204,7 +204,7 @@
 /* ........................ */
 .facts {
     width: 1200px;
-    margin: 80px auto;
+    margin: 100px auto;
 }
 
 .facts-texbox {
@@ -227,4 +227,23 @@
 .title-secondary_number {
     color: #424242;
     margin-bottom: 5px;
+}
+
+
+/* section our sponsors style here */
+/* ............................... */
+.our-sponsors {
+    width: 1200px;
+    margin: 80px auto;
+}
+
+.sponsors-textbox {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
