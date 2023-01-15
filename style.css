@@ -91,7 +91,7 @@
 /* section Our feature style here */
 /* .............................. */
 .our-feature {
-    width: 1200px;
+    width: 1100px;
     margin: 80px auto;
     display: flex;
     align-items: center;
@@ -113,7 +113,7 @@
     width: 100%;
 }
 
-.textbox-title {
+.title-secondary {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
@@ -127,4 +127,75 @@
 
 .title-finale {
     color: #FF900E;
+}
+
+
+/* section Feature explore style here */
+/* .................................. */
+.feature-explore {
+    width: 1200px;
+    margin: 130px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 55px;
+}
+
+.explore-title {
+    position: relative;
+    padding-left: 30px;
+}
+
+.title-secondary__creative::before {
+    content: '';
+    position: absolute;
+    background-color: #FF900E;
+    width: 5px;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.feature-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.feature {
+    box-shadow: 5px 10px 10px rgba(219, 217, 217, 0.324);
+    padding: 0 20px;
+}
+
+.explore-imgbox {
+    width: 700px;
+    text-align: end;
+    position: relative;
+}
+
+.explore-imgbox img {
+    width: 80%;
+
+}
+
+.btn-secondary {
+    background: #FF900E;
+    border-radius: 5px;
+    border: none;
+    padding: 16px 30px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 40px;
+    bottom: -35px;
+}
+
+.btn-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+}
+
+.btn-text {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
 }
