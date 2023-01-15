@@ -222,6 +222,13 @@
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 30px 50px 20px;
+    transition: all 0.4s;
+}
+
+.rewards-details:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 8px 10px rgba(194, 191, 191, 0.324);
+
 }
 
 .title-secondary_number {
@@ -248,6 +255,11 @@
     align-items: center;
 }
 
+.sponsor-icon img {
+    filter: brightness(0);
+    opacity: 0.7;
+}
+
 /* footer style here */
 /* ................. */
 .footer {
@@ -255,8 +267,9 @@
     align-items: center;
     justify-content: center;
     width: 1200px;
-    height: 100px;
-    margin: 150px auto;
+    padding: 40px;
+    margin: 0 auto;
+    margin-top: 130px;
     background: #FFF4E7;
     border-radius: 8px;
 }
@@ -265,6 +278,7 @@
     font-weight: 400;
     font-size: 20px;
     color: #424242;
+
 }
 
 
@@ -273,7 +287,6 @@
 @media only screen and (max-width:576px) {
     .navbar {
         max-width: 100vw;
-        margin: 0 auto;
         display: flex;
         flex-direction: column;
         gap: 15px;
@@ -281,21 +294,14 @@
     }
 
     .navbar-title {
-        font-weight: 700;
-        font-size: 25px;
-        color: #131313;
+        font-size: 26px;
     }
 
     .list {
-        text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: start;
-        list-style: none;
         gap: 25px;
-        font-weight: 500;
-        font-size: 18px;
     }
 
     /* banner styel here */
@@ -303,29 +309,21 @@
 
     .banner-textbox {
         width: 75%;
-        margin: 0 auto;
-        text-align: center;
-        margin-bottom: 50px;
     }
 
     .banner-title {
-        font-weight: 700;
         font-size: 30px;
         line-height: 40px;
-        margin-bottom: 30px;
-        color: #131313;
     }
 
     .banner-imgbox {
         width: 90vw;
-        margin: 0 auto
     }
 
     /* section Our feature style here */
     /* .............................. */
     .our-feature {
         max-width: 85vw;
-        margin: 80px auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -385,5 +383,33 @@
         gap: 40px;
 
     }
+
+
+    /* Mobile responsive our sponsors section style here */
+    /* ................................................. */
+    .our-sponsors {
+        max-width: 90vw;
+    }
+
+    .sponsors {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .sponsor-icon img {
+        width: 150px;
+
+    }
+
+    /* Responsive footer style here */
+    /* ................. */
+    .footer {
+        text-align: center;
+        max-width: 90vw;
+        margin-bottom: 30px;
+        padding: 15px;
+    }
+
 
 }
