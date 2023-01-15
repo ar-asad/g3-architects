@@ -406,9 +406,19 @@ textarea {
         width: 90vw;
     }
 
-    .btn-secondary {
+    /* .btn-secondary {
         left: 2px;
         bottom: -100px;
+    } */
+    .btn-secondary {
+        padding: 12px 24px;
+        left: 5px;
+        bottom: -50px;
+    }
+
+    .btn-title {
+        font-size: 45px;
+        line-height: 35px;
     }
 
 
